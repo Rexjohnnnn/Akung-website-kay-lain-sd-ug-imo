@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect with Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            min-height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            background-image: url('rj.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        header {
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #4CAF50;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+            margin-bottom: 10px;
+        }
+        
+        main {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        main:hover {
+            transform: translateY(-5px);
+        }
+        
+        .social-media {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+        
+        .social-media li {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-media li:hover {
+            transform: scale(1.2);
+        }
+
+        .social-media a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            color: #4CAF50;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #4CAF50;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-picture:hover {
+            transform: scale(1.1);
+        }
+        
+        .home-button {
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .home-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Connect with Me</h1>
+    </header>
+    <main>
+        <img src="pisbokk.jpg" alt="Your Image" class="profile-picture">
+        <p>Get in touch with me through the following:</p>
+        <ul class="social-media">
+            <li><a href="mailto:rex.derayal@jmc.edu.ph"><i class="far fa-envelope"></i></a></li>
+            <li><a href="tel:+639454485595"><i class="fas fa-phone"></i></a></li>
+            <li>
+                <a href="https://www.instagram.com/rexjohn.szn/"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/rexjohn.derayal.71"><i class="fab fa-facebook"></i></a>
+            </li>
+        </ul>
+    </main>
+    
+    <a href="index.html" class="home-button">Back to Home</a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
